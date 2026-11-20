@@ -1,0 +1,36 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rutas-venezuela-backend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "rutas-venezuela-backend",
+        "run",
+        "start:dev"
+      ],
+      "port": 3000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "start"
+      ],
+      "port": 4200
+    },
+    {
+      "name": "rutas-venezuela-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "rutas-venezuela-frontend",
+        "start"
+      ],
+      "port": 4200
+    }
+  ]
+}
